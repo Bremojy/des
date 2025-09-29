@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+  background-color: rgb(85, 224, 132);
+  margin: 20 px;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #224183;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-content {
+  padding: 60px;
+}
+
+.footer {
+  background-color: #224183;
+  color: white;
+  text-align: center;
+ 
+}
+.yea {
+  filter: brightness(70%);
+  
+  
+}
+/* App.css */
+
+.my-swiper {
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  margin: 40px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Each slide wrapper */
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Images inside slides */
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Lazy loading spinner */
+.swiper-lazy-preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  margin-top: -15px;
+  z-index: 10;
+  border: 4px solid #fff;
+  border-top: 4px solid red;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Overlay Text */
+/* App.css */
+
+/* ImageCarousel.css */
+
+.carousel-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.my-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 500px; /* adjust as desired for your hero/banner height */
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* overlay text container */
+.carousel-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 40%;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-overlay h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #ff5a00;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background-color: #e14f00;
+}
+
+/* navigation arrows styling */
+.my-swiper .swiper-button-next,
+.my-swiper .swiper-button-prev {
+  color: #fff;
+  /* optionally add background or more visible styling */
+}
+
+/* pagination dots styling */
+.my-swiper .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.my-swiper .swiper-pagination-bullet-active {
+  background: #ff5a00;
+}
+
+/* src/components/Services.css */
+.services-section {
+  background-color: #f9f9f9;
+}
+
+.service-card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #0d6efd; /* Bootstrap primary color */
+  transition: color 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  color: #6610f2; /* Bootstrap purple */
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand span {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  margin-left: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd; /* Bootstrap Primary */
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    margin-left: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+footer a:hover {
+  color: #0d6efd; /* Bootstrap primary */
+  text-decoration: underline;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
