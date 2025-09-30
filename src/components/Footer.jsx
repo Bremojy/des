@@ -22,7 +22,7 @@ const Footer = () => {
             <h5 className="fw-bold">Stay Connected</h5>
             <div className="d-flex justify-content-center justify-content-md-start align-items-center mt-3">
               <a
-                href="https://wa.me/254798805206"
+                href="https://wa.me/254796585315"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="me-3"
@@ -36,12 +36,12 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://instagram.com/bremojy"
+                href="https://www.facebook.com/share/1B3o8kZEhF/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/images/in.png"
+                  src="/images/f.jpg"
                   alt="Instagram"
                   height="50"
                   width="50"
