@@ -16,14 +16,14 @@ const Navbar = () => {
         <div className="d-flex align-items-center">
           <i className="bi bi-telephone me-2"></i>
           <span className="fw-bold me-3">0796585315</span>
-          <a href="https://facebook.com" className="text-light me-3">
+          <a href="https://www.facebook.com/share/1B3o8kZEhF/" className="text-light me-3">
             <i className="bi bi-facebook"></i>
           </a>
-          <a href="https://twitter.com" className="text-light me-3">
-            <i className="bi bi-twitter"></i>
+          <a href="https://www.tiktok.com/@des.security.serv?_t=ZM-908BgOykmLI&_r=1" className="text-light me-3">
+            <i class="bi bi-tiktok"></i>
           </a>
-          <a href="https://instagram.com" className="text-light">
-            <i className="bi bi-instagram"></i>
+          <a href="https://wa.me/254796585315" className="text-light">
+            <i class="bi bi-whatsapp"></i>
           </a>
         </div>
       </div>
